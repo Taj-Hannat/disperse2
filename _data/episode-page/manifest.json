@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://Taj-Hannat.github.io/disperse2/episode-page/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "episode-page" ] },
+    "homepage": [
+      {
+        "id": "https://ia801308.us.archive.org/4/items/disperseDispatchEpisode234/disperse_234",
+        "type": "Text",
+        "label": { "en": [ "episode-page" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://ia801308.us.archive.org",
+        "type": "Agent",
+        "label": { "en": [ "Library Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://Taj-Hannat.github.io/disperse2/episode-page/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 7427.0,
+        "items": [
+          {
+            "id": "https://Taj-Hannat.github.io/disperse2/episode-page/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://Taj-Hannat.github.io/disperse2/episode-page/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia801308.us.archive.org/4/items/disperseDispatchEpisode234/disperse_234.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 7427.0
+                },
+                "target": "https://Taj-Hannat.github.io/disperse2/episode-page/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
